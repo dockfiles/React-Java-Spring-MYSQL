@@ -4,7 +4,7 @@
 
 You can open this sample in the Dev Environments feature of Docker Desktop version 4.12 or later.
 
-[Open in Docker Dev Environments <img src="../open_in_new.svg" alt="Open in Docker Dev Environments" align="top"/>](https://open.docker.com/dashboard/dev-envs?url=https://github.com/docker/awesome-compose/tree/master/react-java-mysql)
+[Open in Docker Dev Environments <img src="https://user-images.githubusercontent.com/110657529/209979240-477cd2fa-66aa-4ae0-bc28-f78e88f26a51.png" alt="Open in Docker Dev Environments" align="top"/>](https://open.docker.com/dashboard/dev-envs?url=https://github.com/docker/awesome-compose/tree/master/react-java-mysql)
 
 ### React application with a Spring backend and a MySQL database
 
@@ -23,7 +23,7 @@ Project structure:
 └── README.md
 ```
 
-[_compose.yaml_](compose.yaml)
+compose.yaml
 ```
 services:
   backend:
@@ -77,7 +77,8 @@ b176b18fbec4        mysql:8.0.19                "docker-entrypoint.s…"   39 se
 ```
 
 After the application starts, navigate to `http://localhost:3000` in your web browser to get a colorful message.
-![page](./output.jpg)
+![image](https://user-images.githubusercontent.com/110657529/209979185-727e4b12-9233-4fbf-bd09-c57fb1cb347c.png)
+
 
 Stop and remove the containers
 ```
